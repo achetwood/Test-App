@@ -15,7 +15,7 @@ This will install the dependencies required for the back-end and then proceed to
 In the second terminal, to start up the frontend; from the project folder, run the following:
 
 ```
-"cd frontend/salve-test-app"
+"cd frontend"
 "npm run install"
 "npm run start"
 ```
