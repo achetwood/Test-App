@@ -3,8 +3,8 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 
-import { Loading } from 'common/components/Loading';
-import { MaterialTable } from 'common/components/Table';
+import { Loading } from 'common/components/loading/Loading';
+import { TableWrapper } from 'common/components/table/TableWrapper';
 import { IPatientListItem } from 'types/PatientListTypes';
 import { useGetClientList } from 'handlers/ApplicationHandlers';
 import type { MRT_ColumnDef } from 'material-react-table';
@@ -60,7 +60,7 @@ export default function PatientList() {
               >
                 Patients
               </Typography>
-              <MaterialTable 
+              <TableWrapper 
                 rows={patientListArray}
                 columns={columns}
               />

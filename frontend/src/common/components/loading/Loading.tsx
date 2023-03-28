@@ -5,7 +5,7 @@ import {
   Typography 
 } from '@mui/material';
 
-export interface ILoadingProps {
+interface ILoadingProps {
   text?: string;
   isOpen: boolean;
 };
