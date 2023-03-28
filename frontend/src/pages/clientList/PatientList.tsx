@@ -3,10 +3,10 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 
-import { Loading } from 'common/components/loading/Loading';
-import { MaterialTable }  from 'common/components/table/MaterialTable';
+import { Loading } from 'common/components/Loading';
+import { MaterialTable } from 'common/components/Table';
 import { IPatientListItem } from 'types/PatientListTypes';
-import { useGetClientList } from 'handlers/applicationHandlers';
+import { useGetClientList } from 'handlers/ApplicationHandlers';
 import type { MRT_ColumnDef } from 'material-react-table';
 
 export default function PatientList() {
