@@ -1,4 +1,4 @@
-# Salve Test App
+# Test App
 
 You will need to run two terminals to get this project to work. One for the back-end and one for the frontend.
 
